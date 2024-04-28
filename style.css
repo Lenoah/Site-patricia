@@ -1,0 +1,20 @@
+/*styles pour les écrans de 768px de largeur ou moins*/
+@media (max-width: 768px)  {
+    header{text-align: center;}
+    footer ul{display: flex; flex-direction: column;}
+    section{text-align: center; display: grid; grid-template-columns: 1fr; gap: 20px;}
+ }
+ /*styles pour les écrans de 480px de largeur ou moins*/
+ @media (max-width: 480px)  {
+    header{display: flex; justify-content: space-between; align-items: center; padding: 20px;}
+    footer ul{display: flex;}
+    section{ grid-template-columns: 1fr;}
+ }
+ /*styles pour les écrans de plus de 768px de largeur*/
+ @media (min-width: 480px)  {s
+    header{display: flex; justify-content: space-between; align-items: center; padding: 20px;}
+    footer ul{display: flex;}
+    section{display: grid; grid-template-columns: repeat(3,1fr); gap: 20px;}
+ }
+ /*styles pour les boutons*/
+ .btn{display: inline-block; padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px;}

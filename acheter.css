@@ -1,0 +1,8 @@
+body{background-color:gray;}
+section{text-align: center; color: orange; text-decoration: underline;}
+div{border: 6px solid beige; padding: auto; margin: 10px}
+h2{text-decoration:dashed; color: black; border-radius: 10px; box-shadow: inset;}
+footer {text-align: right;} 
+footer{background-color:pink; padding:20px; text-align: right;}
+
+

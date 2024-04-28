@@ -1,0 +1,12 @@
+h1{text-align: center; text-decoration: none; background-color: blue;}
+h2{text-align: center; background-color: orange; background-position: 0cqmax;}
+body{background-color: bisque ;}
+  div img{display: grid; grid-template-columns: repeat(auto-flit, minmax(250px, 1fr)); gap: 20px;}
+  img{border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;}
+  img{max-width: 100%; height: auto; }
+  h3{margin-top: 0%;}
+  img{margin-bottom: 0%;}
+  h3, h4{text-align: justify; color:black; background-color: rosybrown;}
+  a{text-align: center; color:black; background-color:blue;padding: 6; margin: 4; background-position: center;}
+footer {text-align: right;} 
+footer{background-color:pink; color:black;padding: 6px; text-align: right;}
